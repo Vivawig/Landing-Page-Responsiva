@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.header {
+    max-width: auto;
+    height: 90px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: end;
+}
+
+#signUp button, #signIn button {
+    border: none;
+    background: none;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+}
